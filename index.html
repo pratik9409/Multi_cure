@@ -1,0 +1,236 @@
+{% extends "main.html" %}
+{% block header %}
+
+<html lang="en">
+
+<style>
+    .headstyle {
+        color: rgb(255, 255, 255);
+        font-variant: petite-caps;
+        background-color: rgb(0, 0, 0, 0.8);
+        margin-bottom: 0px
+    }
+
+    .site-footer {
+
+background: red;
+}
+    divstyle {
+        border-radius: 10px 10px 10px 10px;
+        margin-left: 1px;
+        margin-right: 1px
+    } 
+</style>
+</style>
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+     
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+
+        <title>Health</title>
+      </head>
+      <body>
+      
+
+
+          <h1 class='text-center py-3'
+            style="font-variant: petite-caps;margin-bottom:0px">
+            <b><i>Mulit-Cure - an all in one medical solution</i></b>
+    </h1>
+
+    <div class="row" style="font-size: 20px;padding: 0px 50px 50px 50px;">
+        <p><b>Multi-Cure Health</b> is an all in one medical solution web-app which brings 10 Disease
+            Detections like Covid Detection, Brain Tumor Detection, Breast Cancer Detection, Alzheimer Detection,
+            Diabetes Detection, Pneumonia Detection, Heart Disease Detection, Liver Disease Detection, Kidney Disease Detection, and Malaria Detection under one platform.</p>
+
+        <h2 class='text-center py-3'
+            style="color: rgb(255, 255, 255);font-variant: petite-caps;background-color: rgb(0, 0, 0);margin-bottom:0px">
+            <b><i>10 Disease Detections</i></b>
+        </h2>
+
+        <div class='divstyle' style='margin:40px 20px 60px 20px'>
+            <div class="row py-3">
+
+
+                <div class="card" style="width: 18rem;">
+                  <a style="text-decoration: none;" href="./covid"><img src="../static/icons/covid.jpg" class="card-img-top img-fluid" alt="...">
+                  <h5 class="card-title text-center headstyle" style="padding: 6;"><b>Covid Detection</b></h5></a>
+                  <div class="card-body" style=" display: flex; padding: 0%" >
+                    <p class="card-text">Coronavirus disease (COVID-19) is an infectious disease caused by the SARS-CoV-2 virus. <a href="./covid">Read More...</a> </p>
+                  </div>
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                  <a style="text-decoration: none;" href="./braintumor"><img src="../static/icons/braintumor.png" class="card-img-top img-fluid" alt="...">
+                  <h5 class="card-title text-center headstyle" style="padding: 6;"><b>Brain Tumor Detection</b></h5></a>
+                  <div class="card-body" style="display: flex; padding: 0%" >
+                    <p class="card-text">A brain tumor is a mass or growth of abnormal cells in your brain. Many different types of brain <a href="./braintumor">read more...</a></p>
+                  </div>
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                  <a style="text-decoration: none;" href="./breastcancer"><img src="../static/icons/breastcancer.png" class="card-img-top img-fluid" alt="...">
+                  <h5 class="card-title text-center headstyle" style="padding: 6;"><b>Breast Cancer Detection</b></h5></a>
+                  <div class="card-body" style="display: flex; padding: 0%" >
+                    <p class="card-text">Breast cancer is a disease in which cells in the breast grow out of control. A breast is made up of <a href="./breastcancer">read more...</a> </p>
+                  </div>
+                </div>
+
+
+                <div class="card" style="width: 18rem;">
+                  <a style="text-decoration: none;" href="./alzheimer"><img src="../static/icons/alzheimer.png" class="card-img-top img-fluid" alt="...">
+                  <h5 class="card-title text-center headstyle" style="padding: 6;"><b>Alzheimer Detection</b></h5></a>
+                  <div class="card-body" style="display: flex; padding: 0%" >
+                    <p class="card-text">Alzheimer's disease is a progressive neurologic disorder that causes the brain to <a href="./alzheimer">read more...</a></p>
+                  </div>
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                  <a style="text-decoration: none;" href="./diabetes"><img src="../static/icons/diabetes.png" class="card-img-top img-fluid" alt="...">
+                  <h5 class="card-title text-center headstyle" style="padding: 6;"><b>Diabetes Detection</b></h5></a>
+                  <div class="card-body" style="display: flex; padding: 0%" >
+                    <p class="card-text">Diabetes is a chronic (long-lasting) health condition that affects how your body turns food into energy. <a href="./diabetes">Read More...</a></p>
+                  </div>
+                </div>
+
+
+            </div>
+        </div>
+
+
+        <div class='divstyle' style='margin:40px 20px 60px 20px'>
+            <div class="row py-3">
+
+
+
+              <div class="card" style="width: 18rem;">
+                <a style="text-decoration: none;" href="./pneumonia"><img src="../static/icons/pneumonia.png" class="card-img-top img-fluid" alt="...">
+                <h5 class="card-title text-center headstyle" style="padding: 6;"><b>Pneumonia Detection</b></h5></a>
+                <div class="card-body" style="display: flex; padding: 0%" >
+                  <p class="card-text">Pneumonia is an infection that inflames the air sacs in one or both lungs. <a href="./pneumonia">Read More...</a></p>
+                </div>
+              </div>
+
+                
+
+
+                <div class="card" style="width: 18rem;">
+                  <a style="text-decoration: none;" href="./heartdisease"><img src="../static/icons/heartdisease.png" class="card-img-top img-fluid" alt="...">
+                  <h5 class="card-title text-center headstyle" style="padding: 6;"><b>Heart Disease Detection</b></h5></a>
+                  <div class="card-body" style="display: flex; padding: 0%" >
+                    <p class="card-text">Heart disease describes a range of conditions that affect the heart. Heart diseases include: <a href="./heartdisease">Read More...</a></p>
+                  </div>
+                </div>
+
+
+
+
+
+                <div class="card" style="width: 18rem;">
+                  <a style="text-decoration: none;" href="./kidney"><img src="../static/icons/kidney.png" class="card-img-top img-fluid" alt="...">
+                  <h5 class="card-title text-center headstyle" style="padding: 6;"><b>Kidney Disease Prediction</b></h5></a>
+                  <div class="card-body" style="display: flex; padding: 0%" >
+                    <p class="card-text">Our kidneys play many important roles keeping our bodies in balance. They remove waste <a href="./kidney">Read More...</a></p>
+                  </div>
+                </div>
+
+
+
+
+
+                <div class="card" style="width: 18rem;">
+                  <a style="text-decoration: none;" href="./liver"><img src="../static/icons/liver.png" class="card-img-top img-fluid" alt="...">
+                  <h5 class="card-title text-center headstyle" style="padding: 6;"><b>Liver Disease Prediction</b></h5></a>
+                  <div class="card-body" style="display: flex; padding: 0%" >
+                    <p class="card-text">Liver problems can also be caused by a variety of factors that damage the liver, such as <a href="./liver">read more...</a></p>
+                  </div>
+                </div>
+
+
+
+
+                <div class="card" style="width: 18rem;">
+                  <a style="text-decoration: none;" href="./malaria"><img src="../static/icons/malaria.png" class="card-img-top img-fluid" alt="...">
+                  <h5 class="card-title text-center headstyle" style="padding: 6;"><b>Malaria Disease Prediction</b></h5></a>
+                  <div class="card-body" style="display: flex; padding: 0%" >
+                    <p class="card-text">Malaria is a disease caused by a parasite. The parasite is spread to humans through the bites of <a href="./malaria">read more...</a></p>
+                  </div>
+                </div>
+    
+
+            </div>
+        </div>
+
+        <div class='divstyle' style='margin:40px 20px 60px 20px'>
+          <div class="row py-3">
+            
+          </div>
+        </div>
+        
+
+
+        
+
+          <footer class="bg-dark">
+        
+            <div class="flex flex-col flex-row items-center"> 
+              <a class="flex flex-wrap title-font font-medium items-center text-gray-900">
+          
+                <span class="text-xl" style="color:burlywood  ">Pratik Abnave</span>
+              </a>
+              <p class="text-l text-gray-600 sm:ml-3 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4" style="color: aliceblue;">Github
+                <a href="https://github.com/pratik9409" class="text-gray-600 ml-1" style="color: burlywood;" rel="noopener noreferrer" target="_blank">@pratik9409</a>
+              </p>
+              <span class="flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
+                <a class="text-gray-500">
+                  <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                    <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                  </svg>
+                </a>
+                <a class="ml-3 text-gray-500">
+                  <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                    <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+                  </svg>
+                </a>
+                <a class="ml-3 text-gray-500">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                    <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                    <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+                  </svg>
+                </a>
+                <a class="ml-3 text-gray-500">
+                  <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+                    <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+                    <circle cx="4" cy="4" r="2" stroke="none"></circle>
+                  </svg>
+                </a>
+              </span>
+            </div>
+          </footer>    
+
+        </div>
+
+
+
+
+        <!-- JavaScript -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+            integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+            crossorigin="anonymous"></script> 
+    
+    </body>
+    
+    </html> 
+    {% endblock %}
