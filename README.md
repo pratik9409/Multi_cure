@@ -1,5 +1,5 @@
 # Multi_Cure
-In this WebApp ypu can find 10 diseases under 1 app. That would be very useful for the user to check. It has some details about the disease such as their symptoms and some details about the disease.
+In this WebApp you can find 10 diseases under 1 app. That would be very useful for the user to check. It has some details about the disease such as their symptoms and some details about the disease.
 This webapp was developed using Flask Web Framework. The models used to predict the diseases were trained on large Datasets. All the links for datasets and the python notebooks used for model creation are mentioned below in this readme. The webapp can predict following Diseases:
 
 Alzheimer
