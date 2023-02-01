@@ -4,7 +4,7 @@ This webapp was developed using Flask Web Framework. The models used to predict 
 
 Alzheimer
 Breast Cancer
-Brain Tumour
+Brain Tumor
 Covid-19
 Diabetes 
 Heart Disease
@@ -23,7 +23,7 @@ Pneumonia
 | Breast Cancer  | 98.25%        | [Breast cancer Data](https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data)                 | Deep Learning   |
 | Brain Tumor    | 83.82%        | [Brain Tumor Data](https://www.kaggle.com/datasets/navoneel/brain-mri-images-for-brain-tumor-detection)  | Machine Learning|
 | Covid-19       | 81.52%        | [Covid-19 Data](https://www.kaggle.com/datasets/plameneduardo/sarscov2-ctscan-dataset)                   | Deep Learning     |
-| Diabetes       | 96.5%         | [Diabetes Data](https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database)                    | Machnine Learning|
+| Diabetes       | 96.50%         | [Diabetes Data](https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database)                    | Machnine Learning|
 | Heart Disease  | 85.25%        | [Heart Disease Data](https://www.kaggle.com/datasets/rishidamarla/heart-disease-prediction)              | Machine Learning |
 | Kidney Disease | 99.00%        | [Kidney DIsease Data](https://www.kaggle.com/datasets/mansoordaku/ckdisease)                             | Machine Learning |
 | Liver Disease  | 77.00%        | [Liver Disease Data](https://www.kaggle.com/datasets/uciml/indian-liver-patient-records)                 | Machine Learning |
