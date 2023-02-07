@@ -14,6 +14,12 @@ Malaria
 Pneumonia
 
 
+
+![ss](https://user-images.githubusercontent.com/67755812/217238738-f28f759c-934a-4da7-9729-8306f66952b3.png)
+
+
+
+
 # Accuracy of Prediction for all Diseases:
 
 
